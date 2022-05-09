@@ -37,8 +37,7 @@ const Weather = () => {
     }, [])
 
 
-    
-
+    const climate=['https://i.gifer.com/Lx0q.gif','https://i.gifer.com/bFF.gif','https://i.gifer.com/9Z0P.gif','https://i.gifer.com/2ZOX.gif']
 
     const randomColor = Math.floor(Math.random()*climate.length);
     document.body.style = `background: url(${climate[randomColor]}) no-repeat center center fixed;
