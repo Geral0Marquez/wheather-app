@@ -66,7 +66,7 @@ const Weather = () => {
                 <div className='main-box'>
                     <div className='column-1'>
                         <div className='text-center'>
-                            <img src={`http://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`}/>
+                            <img src={`http://openweathermap.org/img/wn/${weather.weather?.[0].icon}@2x.png`} alt=""/>
                             <p className='text-black'> { isCelsius? `${ (weather.main?.temp - 273.15).toFixed(2)} °C`: `${(((9*(weather.main?.temp - 273.15))/5)+32).toFixed(2)} °F`} </p>
                         </div>
                        
