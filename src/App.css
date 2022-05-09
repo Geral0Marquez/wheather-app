@@ -112,4 +112,15 @@ li{
 
 
 
-
+.loader{
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  width: 100vw;
+  height: 100vh;
+  background: black;
+  color: #fff;
+}
