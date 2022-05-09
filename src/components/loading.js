@@ -25,7 +25,7 @@ const Loading = () => {
         <div>
             {
                 !isloading ? <div className='loader'><h4 style={{position:"relative", bottom:"15%", left:"7%", fontSize:"25px"}}>One moment, please...!!!</h4>
-                <img style={{width:"200px", height:"200px",position:"relative", top:"8%", right:"9%" }} src="img/loader.gif"/></div>: ""
+                <img style={{width:"200px", height:"200px",position:"relative", top:"8%", right:"9%" }} src="img/loader.gif" alt=""/></div>: ""
               
             }
         </div>
