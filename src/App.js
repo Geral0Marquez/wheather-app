@@ -1,16 +1,17 @@
-
 import './App.css';
-import QuoteBox from './components/QuoteBox';
+import Weather from "./components/Weather";
 
 
-function App(){
-  
+function App() {
+ 
+  return (
+    <div className='App'>
+      <Weather/>
 
-    return(
-        <div className='App'>
-           <QuoteBox/> 
-        </div>
-    );
+    </div>
+  );
 }
-
+  
+  
 export default App;
+  
