@@ -1,5 +1,6 @@
 
 import {useEffect, useState} from 'react';
+import Clock from './Clock';
 import axios from 'axios';
 
 
@@ -54,6 +55,7 @@ const Weather = () => {
         <div className='card'>
                 <h2 className="text-center">
                     Weather app
+                    <Clock/>
                 </h2>
 
                 <p className="text-center sub-title">
